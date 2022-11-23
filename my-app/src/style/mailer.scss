@@ -1,0 +1,43 @@
+
+  input {
+    display: block;
+    min-width: 340px;
+    line-height: 1.2;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  textarea {
+    margin-top: 10px;
+    display: block;
+    max-width: 400px;
+    min-height: 100px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:#000;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+    max-width: 360px;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover {
+      background-color: rgb(87, 87, 87);
+    }
+  }
+    
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    
+  }
+
+  .callmail {
+    display: flex;
+  }

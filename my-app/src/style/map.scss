@@ -1,0 +1,52 @@
+
+.maping_contact {
+    display: flex;
+    height: 350px;
+    align-items: center;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    justify-items: center;
+}
+
+.google {
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 350px;
+    height: 230px;
+}
+
+
+.mailTel {
+    display: flex;
+    a{
+        color: black;
+        font-weight: 700;
+        font-size: 16px;
+        list-style-type: none;
+        padding-left: 20px;
+    }
+}
+.mailTel:hover {
+	transform: rotateY(20deg);
+}
+
+.mobile {
+    a{
+        color: black;
+        font-weight: 700;
+        font-size: 16px;
+        list-style-type: none;
+        padding-left: 20px;
+    }
+    margin-bottom: 20px;
+}
+.mobile:hover {
+	transform: rotateY(20deg);
+}
+
+.callmail {
+    display: flex;
+    flex-direction: column;
+}
